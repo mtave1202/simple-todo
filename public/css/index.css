@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: #4d3829;
+}
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+h2 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+#wrapper {
+    max-width: 1024px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.flex {
+    display: flex;
+}
+
+.pd10 {
+    padding: 10px;
+}
+.bg-white {
+    background-color: white;
+}
+.text-left {
+    text-align:left !important;
+}
+.text-center {
+    text-align:center !important;
+}
+.text-right {
+    text-align: right !important;
+}
+.input {
+    display: inline-block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.input:focus, .input:hover, .todo[data-id="0"] .input {
+    border: 1px solid #bbb !important;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* table ---------------------------------------------------------------------- */
+.table {
+    width: 100%;
+    border-spacing: 0;
+}
+.table th, .table td {
+    padding: 10px;
+    border-top: solid 1px #bbb;
+    text-align: center;
+}
+.w-toggle {
+    width: 80px;
+}
+.w-id {
+    width: 60px;
+}
+.w-button {
+    width: 70px;
+}
+.w-datetime {
+    width: 125px;
+}
+.title {
+    text-align: left !important;
+}
+/* checkbox ---------------------------------------------------------------- */
+.fa-checkbox {
+
+}
+.fa-checkbox .fa-checkbox-input {
+    display: none;
+}
+.fa-checkbox .fa-checkbox-input + .fa-checkbox-label:before {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: '\f14a';
+    color: #ccc;
+    cursor: pointer;
+}
+
+.fa-checkbox .fa-checkbox-input:checked + .fa-checkbox-label:before {
+    color: #2db29c;
+}
+
+
+/* button -------------------------------------------------------------------- */
+.btn {
+    border: none;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+.btn > i {
+    font-size: 20px;
+}
+.btn.btn-normal {
+    font-size: 16px;
+    border: 1px solid #2db29c;
+    border-radius: 5px;
+    color: #2db29c;
+    padding: 8px 10px;
+}
+.btn.btn-normal:hover {
+    background-color: #2db29c;
+    color: white;
+}
+.btn.btn-edit {
+    color: #4BD865;
+}
+.btn.btn-delete {
+    color: red;
+}
+/* ---------------------------------------------------------------------------- */

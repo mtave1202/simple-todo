@@ -1,0 +1,12 @@
+{
+    "name": "kanxashi/kadai",
+    "authors": [
+        {
+            "name": "kanxashi"
+        }
+    ],
+    "require": {
+        "vlucas/valitron": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
